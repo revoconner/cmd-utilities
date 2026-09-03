@@ -59,7 +59,8 @@ usage: listcmd [--details | --dup | --help]
 
 The refreshenv refreshes system ENV and PATHS for windows cmd in the same session, taken from Chocolatey but is a modified version that fixes a bug present in choco's version.
 
-- The difference being that it fixed a bug where the choco's native refreshenv would erase volatile Paths. (a PR remains waiting to be merged upstream)
+- The difference being that it fixed a [bug](https://github.com/chocolatey/choco/issues/3829) where the choco's native refreshenv would erase volatile Paths.
+- A [PR](https://github.com/chocolatey/choco/pull/3830) remains waiting to be merged upstream.
 - The difference from my PR version (where the bug has been fixed) higher includes the removal of WMIC here since it doesnt really exist on Win 24H2 and higher.
 
 
