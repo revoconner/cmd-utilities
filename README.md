@@ -35,6 +35,11 @@ A repository containing small scripts or utility executables for Windows cmd con
 ---
 
 # List of scripts and executable.
+## ccopy and cpaste
+
+- **To copy an output into clipboard run with `command args | ccopy` for example `type example.txt | ccopy` will copy the contents of a text file called example.txt**
+- **To paste into the terminal type `cpaste` or to paste into a file type `cpaste > filename.ext` where filename is the filename and ext is the extension like txt**
+
 
 ## listcmd.exe
 
