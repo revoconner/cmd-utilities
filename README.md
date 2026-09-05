@@ -6,7 +6,11 @@ A repository containing small scripts or utility executables for Windows cmd con
 ## Setup
 
 ### Automatic
-simply run `irm https://raw.githubusercontent.com/revoconner/cmd-utilities/main/setup.ps1 | iex` in powershell or `curl -sL https://raw.githubusercontent.com/revoconner/cmd-utilities/main/setup.ps1 | powershell -NoProfile -Command -` from cmd.
+simply run 
+
+`irm https://raw.githubusercontent.com/revoconner/cmd-utilities/main/setup.ps1 | iex` in powershell or 
+
+`curl -sL https://raw.githubusercontent.com/revoconner/cmd-utilities/main/setup.ps1 | powershell -NoProfile -Command -` from cmd.
 
 It will download the files, put it into a folder in C:\Aliases if it doesnt exist, or in C:\Aliases1 if it does, then set that folder to user path.
 
